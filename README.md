@@ -1,11 +1,11 @@
-# scaffoldex
- Tutorials for machinefi dapps
+# Scaffold-IoTeX
+Everything you need to start building on IoTeX, by tutorials!
 
 # steps to start 
 
 ## clone this repo
 ```bash
-git clone https://github.com/nicky-ru/scaffoldex.git
+git clone https://github.com/iotexproject/scaffold-iotex.git
 cd scaffoldex
 yarn install
 ```
