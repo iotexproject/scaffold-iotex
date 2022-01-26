@@ -11,6 +11,7 @@
     "compile": "yarn workspace @scaffoldex/hardhat compile",
     "test": "yarn workspace @scaffoldex/hardhat test",
     "deploy": "yarn workspace @scaffoldex/hardhat deploy",
+    "deploy-mainnet": "yarn workspace @scaffoldex/hardhat deploy-mainnet",
     "clean": "yarn workspace @scaffoldex/hardhat clean",
     "chain": "yarn workspace @scaffoldex/hardhat chain",
     "size": "yarn workspace @scaffoldex/hardhat size",
