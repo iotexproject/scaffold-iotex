@@ -4,7 +4,7 @@
   "description": "web3 part of the app",
   "main": "index.js",
   "repository": "https://github.com/nicky-ru/scaffoldex.git",
-  "author": "Nicky Ru <nikitkaruban@gmail.com>",
+  "author": "Nikita Zhou <nikitkaruban@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
