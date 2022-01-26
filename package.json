@@ -4,7 +4,7 @@
   "description": "tutorials for machinefi dapps",
   "main": "index.js",
   "repository": "https://github.com/nicky-ru/scaffoldex.git",
-  "author": "Nicky Ru <nikitkaruban@gmail.com>",
+  "author": "Nikita Zhou <nikitkaruban@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -13,7 +13,10 @@
     "deploy": "yarn workspace @scaffoldex/hardhat deploy",
     "clean": "yarn workspace @scaffoldex/hardhat clean",
     "chain": "yarn workspace @scaffoldex/hardhat chain",
-    "size": "yarn workspace @scaffoldex/hardhat size"
+    "size": "yarn workspace @scaffoldex/hardhat size",
+    "dev": "yarn workspace @scaffoldex/next dev",
+    "build": "yarn workspace @scaffoldex/next build",
+    "start": "yarn workspace @scaffoldex/next start"
   },
   "workspaces": {
     "packages": [
