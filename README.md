@@ -38,3 +38,17 @@ to deploy contracts on iotex testnet or
 yarn deploy-mainnet
 ``` 
 to deploy contracts on iotex mainnet. If contracts were deployed successfully, you will find info about deployed contracts (abi and addresses)
+## start client
+After deploying your smart contracts, from `scaffold-iotex` dir run
+```bash
+yarn dev
+```
+or
+```bash
+yarn build
+yarn start
+```
+It will start a server on http://localhost:3000/. You will be able to open your dapp in a browser. 
+There you will be able to see balances and transfer your PBL.
+## customize the app in any way you want
+any contributions to the code are welcomed!
