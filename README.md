@@ -6,20 +6,20 @@ Everything you need to start building on IoTeX, by tutorials!
 ## clone this repo
 ```bash
 git clone https://github.com/iotexproject/scaffold-iotex.git
-cd scaffoldex
+cd scaffold-iotex
 yarn install
 ```
 ## add private key
-From `scaffoldex` dir run
+From `scaffold-iotex` dir run
 ```bash
 touch ./packages/hardhat/.env
 ```
 open created .env file and add the following string
-```json
+```txt
 PRIVATE_KEY=0xabc123abc123abc123abc123abc123abc123abc123abc123abc123abc123abc1
 ```
-and chage private key for your own.
-This account will be used to deploy and run scripts on network you choose. Make sure you have some IOTX on this account.
+and change private key for one that you own.
+This account will be used to deploy contracts and run scripts on network you choose. Make sure you have some IOTX on this account.
 ## deploy
 Firstly run
 ```bash
@@ -37,4 +37,4 @@ to deploy contracts on iotex testnet or
 ```bash
 yarn deploy-mainnet
 ``` 
-to deploy contracts on iotex mainnet. If contracts were deployed successfully, you will find info of deployed contracts (abi and addresses)
+to deploy contracts on iotex mainnet. If contracts were deployed successfully, you will find info about deployed contracts (abi and addresses)
