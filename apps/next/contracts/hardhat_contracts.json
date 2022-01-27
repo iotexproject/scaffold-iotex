@@ -5,7 +5,7 @@
       "chainId": "4690",
       "contracts": {
         "PebbleCoin": {
-          "address": "0x37aAE15CF876B82A1bdf4A33C96eD7766788eEA8",
+          "address": "0xeF0b250196E33483c19CE294392e2DD3402D06FA",
           "abi": [
             {
               "inputs": [],

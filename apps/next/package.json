@@ -14,9 +14,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.8.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@metamask/detect-provider": "^1.2.0",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@web3-react/core": "^6.1.9",
+    "@web3-react/injected-connector": "^6.0.7",
+    "framer-motion": "^5",
     "next": "12.0.8",
+    "numeral": "^2.0.6",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "sharp": "^0.29.3",
+    "swr": "^1.2.0"
   },
   "devDependencies": {
     "@types/node": "17.0.12",
