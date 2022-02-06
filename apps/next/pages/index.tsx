@@ -25,7 +25,7 @@ const Home: NextPage = () => {
                     <Center h={'full'} textAlign={'center'}>
                         <Stack w={'full'} spacing={8}>
                             <Heading>
-                                my PBL bal is {balance}
+                                My PBL balance is {balance || 0}
                             </Heading>
                             <Transfer/>
                         </Stack>
