@@ -1,9 +1,9 @@
 {
-  "name": "@scaffoldex/next",
+  "name": "@scaffold-iotex/next",
   "version": "1.0.0",
   "description": "client and server",
   "main": "index.js",
-  "repository": "https://github.com/nicky-ru/scaffoldex.git",
+  "repository": "https://github.com/iotexproject/scaffold-iotex",
   "author": "Nikita Zhou <nikitkaruban@gmail.com>",
   "license": "MIT",
   "private": true,

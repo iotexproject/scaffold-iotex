@@ -1,23 +1,23 @@
 {
-  "name": "scaffoldex",
+  "name": "scaffold-iotex",
   "version": "1.0.0",
-  "description": "tutorials for machinefi dapps",
+  "description": "Monorepo with a full stack dapp",
   "main": "index.js",
-  "repository": "https://github.com/nicky-ru/scaffoldex.git",
+  "repository": "https://github.com/iotexproject/scaffold-iotex",
   "author": "Nikita Zhou <nikitkaruban@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "compile": "yarn workspace @scaffoldex/hardhat compile",
-    "test": "yarn workspace @scaffoldex/hardhat test",
-    "deploy": "yarn workspace @scaffoldex/hardhat deploy",
-    "deploy-mainnet": "yarn workspace @scaffoldex/hardhat deploy-mainnet",
-    "clean": "yarn workspace @scaffoldex/hardhat clean",
-    "chain": "yarn workspace @scaffoldex/hardhat chain",
-    "size": "yarn workspace @scaffoldex/hardhat size",
-    "dev": "yarn workspace @scaffoldex/next dev",
-    "build": "yarn workspace @scaffoldex/next build",
-    "start": "yarn workspace @scaffoldex/next start"
+    "compile": "yarn workspace @scaffold-iotex/hardhat compile",
+    "test": "yarn workspace @scaffold-iotex/hardhat test",
+    "deploy": "yarn workspace @scaffold-iotex/hardhat deploy",
+    "deploy-mainnet": "yarn workspace @scaffold-iotex/hardhat deploy-mainnet",
+    "clean": "yarn workspace @scaffold-iotex/hardhat clean",
+    "chain": "yarn workspace @scaffold-iotex/hardhat chain",
+    "size": "yarn workspace @scaffold-iotex/hardhat size",
+    "dev": "yarn workspace @scaffold-iotex/next dev",
+    "build": "yarn workspace @scaffold-iotex/next build",
+    "start": "yarn workspace @scaffold-iotex/next start"
   },
   "workspaces": {
     "packages": [

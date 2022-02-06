@@ -1,5 +1,5 @@
 import useContract from "./useContract";
-import {PebbleCoin} from "@scaffoldex/hardhat/typechain-types";
+import {PebbleCoin} from "../../../../packages/hardhat/typechain-types";
 import ABI from "../../contracts/hardhat_contracts.json";
 import erc20 from "../../contracts/erc20.json";
 import {useWeb3React} from "@web3-react/core";

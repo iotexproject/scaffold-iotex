@@ -1,9 +1,9 @@
 {
-  "name": "@scaffoldex/hardhat",
+  "name": "@scaffold-iotex/hardhat",
   "version": "1.0.0",
-  "description": "web3 part of the app",
+  "description": "smart contracts",
   "main": "index.js",
-  "repository": "https://github.com/nicky-ru/scaffoldex.git",
+  "repository": "https://github.com/iotexproject/scaffold-iotex",
   "author": "Nikita Zhou <nikitkaruban@gmail.com>",
   "license": "MIT",
   "private": true,
