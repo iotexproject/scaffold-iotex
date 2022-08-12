@@ -1,0 +1,6 @@
+.pio
+.vscode/*
+**/.env
+**/node_modules
+**/cache
+**/artifacts
