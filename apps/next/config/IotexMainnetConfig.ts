@@ -9,7 +9,7 @@ export const IotexMainnetConfig = new ChainState({
   networkKey: 'iotex',
   rpcUrl: 'https://babel-api.mainnet.iotex.io/',
   logoUrl: '/images/logo/iotex.svg',
-  explorerURL: 'https://iotexscan.com',
+  explorerURL: 'https://iotexscan.io',
   explorerName: 'IotexScan',
   Coin: new TokenState({
     symbol: 'IOTX',
